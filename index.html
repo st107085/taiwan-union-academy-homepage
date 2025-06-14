@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>臺灣國家中央聯合群院 首頁</title>
+    <!-- 載入 Inter 字體，提供現代且清晰的視覺效果 -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- 載入 Tailwind CSS 框架，用於快速響應式設計和美觀排版 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* 設定全域字體為 Inter */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* 設定背景色為淡灰色 */
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen p-4">
+    <!-- 主要內容容器，設定最大寬度、背景、圓角和陰影，並提供內邊距 -->
+    <div class="max-w-4xl w-full bg-white rounded-lg shadow-xl p-8 space-y-8 lg:p-12">
+
+        <!-- 頁面標題區塊 -->
+        <header class="text-center pb-6 border-b border-gray-200">
+            <h1 class="text-4xl font-bold text-blue-800 mb-2">臺灣國家中央聯合群院</h1>
+            <p class="text-xl text-gray-600">非營利學生交流組織</p>
+        </header>
+
+        <!-- 創立介紹區塊 -->
+        <section class="space-y-4">
+            <h2 class="text-3xl font-semibold text-blue-700 border-b-2 border-blue-300 pb-2 mb-4">創立介紹</h2>
+            <p class="text-gray-700 leading-relaxed">
+                本院創立於<span class="font-medium text-blue-600">114年6月4日</span>，旨在促進學生廣泛交流，是一個非營利組織。我們擁有目前最為完善的自製憲法、民法與刑法，並提供各式各樣的資源供大家了解。
+            </p>
+            <p class="text-gray-700 leading-relaxed">
+                其中包含：
+            </p>
+            <!-- 部門列表 -->
+            <ul class="list-disc list-inside text-gray-700 ml-4 space-y-1">
+                <li><strong class="text-blue-600">訊息查詢實證部</strong></li>
+                <li><strong class="text-blue-600">事件資料記錄部</strong></li>
+                <li><strong class="text-blue-600">重大自然災害部</strong></li>
+                <li><strong class="text-blue-600">案件事件處理部</strong></li>
+            </ul>
+            <p class="text-gray-700 leading-relaxed">
+                等部門提供資訊，讓學生們不需要依賴大眾與家人口中得知。本院會盡可能完善所有服務、資源與法律規範，同時也需要大家們的支持，謝謝。
+            </p>
+        </section>
+
+        <!-- 新聞報區塊 -->
+        <section class="space-y-4 pt-6 border-t border-gray-200">
+            <h2 class="text-3xl font-semibold text-blue-700 border-b-2 border-blue-300 pb-2 mb-4">臺灣國家中央聯合群院新聞報</h2>
+            <p class="text-gray-700 leading-relaxed">
+                「臺灣國家中央聯合群院新聞報」是本院自製的新聞報導，內容涵蓋：
+            </p>
+            <!-- 新聞報導類型列表 -->
+            <ul class="list-disc list-inside text-gray-700 ml-4 space-y-1">
+                <li><strong class="text-blue-600">地震報</strong></li>
+                <li><strong class="text-blue-600">颱風報</strong></li>
+                <li><strong class="text-blue-600">停班停課報</strong></li>
+                <li><strong class="text-blue-600">豪雨特報報</strong></li>
+                <li><strong class="text-blue-600">強風特報報</strong></li>
+            </ul>
+            <p class="text-gray-700 leading-relaxed">
+                由於學生們需要上學上課，因此無法提供即時報導。雖然如此，這仍能提供一個紀錄，供後續的學生查詢。
+            </p>
+        </section>
+
+        <!-- 新聞報連結區塊 -->
+        <section class="space-y-4 pt-6 border-t border-gray-200">
+            <h2 class="text-3xl font-semibold text-blue-700 border-b-2 border-blue-300 pb-2 mb-4">臺灣國家中央聯合群院新聞報連結區</h2>
+            <!-- 連結網格佈局，在小螢幕上單列，中等螢幕上兩列 -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- 每個連結卡片，設定背景、懸停效果、內邊距、圓角和陰影 -->
+                <a href="https://chat.google.com/room/AAQAMMTRfOk?cls=1" target="_blank" class="block bg-blue-50 hover:bg-blue-100 p-4 rounded-md shadow transition duration-300 ease-in-out">
+                    <p class="font-semibold text-blue-700">臺灣國家中央聯合群院新聞報導處 (群組連結)</p>
+                    <p class="text-sm text-gray-600">(限臺灣教育部帳號加入)</p>
+                </a>
+                <a href="https://watch.ncdr.nat.gov.tw/watch_typhoon" target="_blank" class="block bg-blue-50 hover:bg-blue-100 p-4 rounded-md shadow transition duration-300 ease-in-out">
+                    <p class="font-semibold text-blue-700">颱風路徑監測預報</p>
+                </a>
+                <a href="https://watch.ncdr.nat.gov.tw/watch_heavyrain" target="_blank" class="block bg-blue-50 hover:bg-blue-100 p-4 rounded-md shadow transition duration-300 ease-in-out">
+                    <p class="font-semibold text-blue-700">台灣豪雨監測</p>
+                </a>
+                <a href="https://www.dgpa.gov.tw/typh/daily/nds.html" target="_blank" class="block bg-blue-50 hover:bg-blue-100 p-4 rounded-md shadow transition duration-300 ease-in-out">
+                    <p class="font-semibold text-blue-700">停班停課</p>
+                </a>
+                <a href="https://scweb.cwa.gov.tw/zh-tw/earthquake/limit" target="_blank" class="block bg-blue-50 hover:bg-blue-100 p-4 rounded-md shadow transition duration-300 ease-in-out">
+                    <p class="font-semibold text-blue-700">地震報告</p>
+                </a>
+                <a href="https://www.youtube.com/channel/UCa32OtZqhDqDqCHeWO477qg/live" target="_blank" class="block bg-blue-50 hover:bg-blue-100 p-4 rounded-md shadow transition duration-300 ease-in-out">
+                    <p class="font-semibold text-blue-700">地震監測即時直播</p>
+                </a>
+                <a href="https://www.cwa.gov.tw/V8/C/P/Warning/W25.html" target="_blank" class="block bg-blue-50 hover:bg-blue-100 p-4 rounded-md shadow transition duration-300 ease-in-out">
+                    <p class="font-semibold text-blue-700">路上強風特報</p>
+                </a>
+                <a href="https://www.cwa.gov.tw/V8/C/P/Warning/W26.html" target="_blank" class="block bg-blue-50 hover:bg-blue-100 p-4 rounded-md shadow transition duration-300 ease-in-out">
+                    <p class="font-semibold text-blue-700">豪雨特報</p>
+                </a>
+                <!-- 新增的「即時地震監測 (自行製作)」連結 -->
+                <a href="https://st107085.github.io/8752782/" target="_blank" class="block bg-blue-50 hover:bg-blue-100 p-4 rounded-md shadow transition duration-300 ease-in-out">
+                    <p class="font-semibold text-blue-700">即時地震監測 (自行製作)</p>
+                </a>
+                <!-- 新增的「台灣天氣 (自行製作)」連結 -->
+                <a href="https://st107085.github.io/7823783783/" target="_blank" class="block bg-blue-50 hover:bg-blue-100 p-4 rounded-md shadow transition duration-300 ease-in-out">
+                    <p class="font-semibold text-blue-700">台灣天氣 (自行製作)</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- 管制範圍區塊 -->
+        <section class="space-y-4 pt-6 border-t border-gray-200">
+            <h2 class="text-3xl font-semibold text-blue-700 border-b-2 border-blue-300 pb-2 mb-4">臺灣國家中央聯合群院管制範圍</h2>
+            <p class="text-gray-700 leading-relaxed">
+                臺灣國家中央聯合群院主要管理<strong class="text-blue-600">群組訊息、群組訊息真實性、群組糾紛與群組政策</strong>。本院會與其他群組合作，並幫助群組創辦人管理群組。在執行所有事件之前，會先與群組創辦人討論協商後執行。
+            </p>
+        </section>
+
+        <!-- 新增的法律條文解讀功能區塊 -->
+        <section class="space-y-4 pt-6 border-t border-gray-200">
+            <h2 class="text-3xl font-semibold text-blue-700 border-b-2 border-blue-300 pb-2 mb-4">法律條文輕鬆解讀 ✨</h2>
+            <p class="text-gray-700 leading-relaxed mb-4">
+                在這裡，您可以輸入任何法律名詞或概念，我們的AI會為您提供簡單易懂的解釋，幫助您快速理解！
+            </p>
+            <textarea id="legalInput" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 mb-4" rows="4" placeholder="請輸入您想了解的法律名詞或概念，例如：民法、刑法、憲法、侵權行為..."></textarea>
+            <button id="explainButton" class="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded-lg transition duration-300 ease-in-out shadow-md">
+                ✨ 解讀法律名詞
+            </button>
+            <div id="explanationOutput" class="mt-6 p-4 bg-blue-50 rounded-md border border-blue-200 text-gray-800 hidden">
+                <!-- AI 生成的解釋將顯示在這裡 -->
+                <p class="text-gray-600 italic">等待您的輸入...</p>
+            </div>
+            <div id="loadingIndicator" class="mt-6 text-center text-blue-600 hidden">
+                <svg class="animate-spin h-8 w-8 text-blue-600 inline-block mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                </svg>
+                <span>AI 正在努力解讀中...</span>
+            </div>
+        </section>
+
+        <!-- 新增的學生交流活動點子生成器區塊 -->
+        <section class="space-y-4 pt-6 border-t border-gray-200">
+            <h2 class="text-3xl font-semibold text-purple-700 border-b-2 border-purple-300 pb-2 mb-4">學生交流活動點子生成器 ✨</h2>
+            <p class="text-gray-700 leading-relaxed mb-4">
+                想舉辦學生交流活動卻沒有靈感嗎？輸入關鍵字，讓 AI 為您發想創意點子！
+            </p>
+            <textarea id="eventIdeaInput" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500 mb-4" rows="4" placeholder="請輸入活動主題或關鍵字，例如：迎新、社團、學術、創意、競賽、戶外..."></textarea>
+            <button id="generateIdeaButton" class="inline-block bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-6 rounded-lg transition duration-300 ease-in-out shadow-md">
+                ✨ 生成活動點子
+            </button>
+            <div id="eventIdeaOutput" class="mt-6 p-4 bg-purple-50 rounded-md border border-purple-200 text-gray-800 hidden">
+                <!-- AI 生成的活動點子將顯示在這裡 -->
+                <p class="text-gray-600 italic">等待您的輸入...</p>
+            </div>
+            <div id="eventLoadingIndicator" class="mt-6 text-center text-purple-600 hidden">
+                <svg class="animate-spin h-8 w-8 text-purple-600 inline-block mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                </svg>
+                <span>AI 正在努力發想中...</span>
+            </div>
+        </section>
+
+        <!-- 會員群報告與公共群規區塊 -->
+        <section class="space-y-6 pt-6 border-t border-gray-200">
+            <!-- 會員群報告 -->
+            <div class="space-y-4">
+                <h2 class="text-3xl font-semibold text-blue-700 border-b-2 border-blue-300 pb-2 mb-4">臺灣國家中央聯合群院會員群報告</h2>
+                <p class="text-gray-700 leading-relaxed">
+                    請前往會員群報告觀看詳細的報告項目。
+                </p>
+                <!-- 會員群報告連結按鈕 -->
+                <a href="https://sites.google.com/view/2452825438454584245378/%E9%A6%96%E9%A0%81" target="_blank" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg transition duration-300 ease-in-out shadow-md">
+                    前往會員群報告連結
+                </a>
+            </div>
+            <!-- 公共群規 -->
+            <div class="space-y-4 pt-4 border-t border-gray-100">
+                <h2 class="text-3xl font-semibold text-blue-700 border-b-2 border-blue-300 pb-2 mb-4">公共群規 (互動式)</h2>
+                <p class="text-gray-700 leading-relaxed">
+                    在此建立了公共完整群規規範。本群規會依照臺灣法律準則規定，也會依社會最低限制規範。這裡也添加了互動式群規，讓大家可以快速找出需要的群規。
+                </p>
+                <!-- 公共群規連結按鈕 -->
+                <a href="https://sites.google.com/view/1555555555555556/%E9%96%8B%E5%A7%8B%E5%AF%A6%E4%BD%9C" target="_blank" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg transition duration-300 ease-in-out shadow-md">
+                    前往公共群規連結
+                </a>
+            </div>
+        </section>
+
+        <!-- 頁腳 -->
+        <footer class="text-center text-gray-500 text-sm pt-8 border-t border-gray-200">
+            <p>© 臺灣國家中央聯合群院</p>
+        </footer>
+
+    </div>
+
+    <script type="module">
+        // Firebase 相關變數 (此功能雖未使用，但仍保留以符合整體指示)
+        const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
+        const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : {};
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // 法律條文解讀功能相關元素
+            const legalInput = document.getElementById('legalInput');
+            const explainButton = document.getElementById('explainButton');
+            const explanationOutput = document.getElementById('explanationOutput');
+            const loadingIndicator = document.getElementById('loadingIndicator');
+
+            // 學生交流活動點子生成器相關元素
+            const eventIdeaInput = document.getElementById('eventIdeaInput');
+            const generateIdeaButton = document.getElementById('generateIdeaButton');
+            const eventIdeaOutput = document.getElementById('eventIdeaOutput');
+            const eventLoadingIndicator = document.getElementById('eventLoadingIndicator');
+
+            // 處理法律條文解讀功能
+            explainButton.addEventListener('click', async () => {
+                const promptText = legalInput.value.trim();
+                if (!promptText) {
+                    explanationOutput.innerHTML = '<p class="text-red-600">請輸入您想解讀的法律名詞或概念。</p>';
+                    explanationOutput.classList.remove('hidden');
+                    return;
+                }
+
+                loadingIndicator.classList.remove('hidden');
+                explanationOutput.classList.add('hidden');
+                explanationOutput.innerHTML = '';
+
+                try {
+                    let chatHistory = [];
+                    const prompt = `請以簡單易懂的繁體中文，針對國中生，解釋以下法律名詞或概念：「${promptText}」。請著重於核心概念和與台灣學生日常生活相關的例子。如果這是法律條文，請解釋其主要目的和影響。請避免使用過於專業的術語，並保持解釋的親切與實用性。`;
+                    chatHistory.push({ role: "user", parts: [{ text: prompt }] });
+
+                    const payload = { contents: chatHistory };
+                    const apiKey = "";
+                    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+
+                    const response = await fetch(apiUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+
+                    const result = await response.json();
+
+                    if (result.candidates && result.candidates.length > 0 &&
+                        result.candidates[0].content && result.candidates[0].content.parts &&
+                        result.candidates[0].content.parts.length > 0) {
+                        const text = result.candidates[0].content.parts[0].text;
+                        explanationOutput.innerHTML = `<p class="whitespace-pre-wrap">${text}</p>`;
+                    } else {
+                        explanationOutput.innerHTML = '<p class="text-red-600">抱歉，無法解讀此法律名詞。請再試一次或輸入其他名詞。</p>';
+                    }
+                } catch (error) {
+                    console.error("Error calling Gemini API for legal explanation:", error);
+                    explanationOutput.innerHTML = `<p class="text-red-600">發生錯誤：${error.message}。請稍後再試。</p>`;
+                } finally {
+                    loadingIndicator.classList.add('hidden');
+                    explanationOutput.classList.remove('hidden');
+                }
+            });
+
+            // 處理學生交流活動點子生成器功能
+            generateIdeaButton.addEventListener('click', async () => {
+                const promptText = eventIdeaInput.value.trim();
+                if (!promptText) {
+                    eventIdeaOutput.innerHTML = '<p class="text-red-600">請輸入活動主題或關鍵字，以獲取點子。</p>';
+                    eventIdeaOutput.classList.remove('hidden');
+                    return;
+                }
+
+                eventLoadingIndicator.classList.remove('hidden');
+                eventIdeaOutput.classList.add('hidden');
+                eventIdeaOutput.innerHTML = '';
+
+                try {
+                    let chatHistory = [];
+                    // 針對活動點子生成設計的提示語
+                    const prompt = `請以繁體中文，為國中生設計3-5個基於「${promptText}」主題的學生交流活動點子。每個點子請包含活動名稱、簡短說明和主要目的。活動應具備趣味性、互動性，並符合國中生的年齡層。`;
+                    chatHistory.push({ role: "user", parts: [{ text: prompt }] });
+
+                    const payload = { contents: chatHistory };
+                    const apiKey = "";
+                    const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+
+                    const response = await fetch(apiUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(payload)
+                    });
+
+                    const result = await response.json();
+
+                    if (result.candidates && result.candidates.length > 0 &&
+                        result.candidates[0].content && result.candidates[0].content.parts &&
+                        result.candidates[0].content.parts.length > 0) {
+                        const text = result.candidates[0].content.parts[0].text;
+                        eventIdeaOutput.innerHTML = `<p class="whitespace-pre-wrap">${text}</p>`;
+                    } else {
+                        eventIdeaOutput.innerHTML = '<p class="text-red-600">抱歉，無法生成活動點子。請再試一次或輸入其他關鍵字。</p>';
+                    }
+                } catch (error) {
+                    console.error("Error calling Gemini API for event ideas:", error);
+                    eventIdeaOutput.innerHTML = `<p class="text-red-600">發生錯誤：${error.message}。請稍後再試。</p>`;
+                } finally {
+                    eventLoadingIndicator.classList.add('hidden');
+                    eventIdeaOutput.classList.remove('hidden');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
